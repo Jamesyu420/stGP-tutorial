@@ -1,33 +1,44 @@
 Installation
 ============
 
-This tutorial repository focuses on analysis notebooks. The notebooks assume a
-Python environment with common spatial transcriptomics and scientific computing
-packages installed.
+To install the released ``stgp`` package from PyPI into your current Python
+environment:
 
-Clone the tutorial repository
------------------------------
+.. code-block:: shell
+
+   pip install stgp
+
+To reproduce the notebooks from the GitHub repository, you can also install the
+stGP environment from GitHub:
+
+.. code-block:: bash
+
+   git clone https://github.com/YangLabHKUST/stGP.git
+   cd stGP
+   conda env create -f stGP.yml
+   conda activate stGP
+   pip install -e .
+
+Normally the installation time will be less than twenty minutes. The package has
+been tested on Linux (Ubuntu 22.04.5 LTS).
+
+Build the tutorial documentation locally
+----------------------------------------
+
+Clone the tutorial repository:
 
 .. code-block:: bash
 
    git clone git@github.com:Jamesyu420/stGP-tutorial.git
    cd stGP-tutorial
 
-Create an analysis environment
-------------------------------
-
-Use the environment that contains your local ``stGP`` installation and the
-packages used by the notebooks, including ``scanpy``, ``numpy``, ``pandas``,
-``scipy``, ``matplotlib``, and ``ipykernel``.
-
-For documentation builds only, install the Sphinx requirements:
+For documentation builds, install the Sphinx requirements:
 
 .. code-block:: bash
 
    python -m pip install -r docs/requirements.txt
 
-Build the documentation locally
--------------------------------
+Then build the documentation:
 
 .. code-block:: bash
 
