@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stgp-tutorial"
+version = "0.1.0"
+description = "Source code for building the tutorial website of stGP."
+authors = [{ name = "Jamesyu420" }]
+requires-python = ">=3.10"
+readme = "README.rst"
+
+[tool.setuptools]
+packages = []

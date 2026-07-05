@@ -1,0 +1,8 @@
+/* Keep notebook outputs readable in the Read the Docs theme. */
+.nboutput .output_area {
+  overflow-x: auto;
+}
+
+.wy-nav-content {
+  max-width: 1100px;
+}
