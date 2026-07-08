@@ -8,5 +8,5 @@ downstream spatial analyses.
    :maxdepth: 1
 
    MouseBrain_microglia.ipynb
-   MouseBrain_downstream.ipynb
-   downstream_cluster_Microglia.ipynb
+   MouseBrain_proximity_enrich.ipynb
+   cluster_Microglia.ipynb
